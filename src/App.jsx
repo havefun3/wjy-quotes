@@ -208,7 +208,7 @@ export default function App() {
 
               <div className="pt-4">
                 <div className="flex justify-between items-end mb-3">
-                  <label className="block text-xs text-gray-500 tracking-wider">大区划 (可交互先锋地图)</label>
+                  <label className="block text-xs text-gray-500 tracking-wider">区划 </label>
                   <div className="flex gap-3 text-[10px] font-serif-sc">
                     <button type="button" onClick={() => setMapMode('china')} className={`transition-colors pb-0.5 ${mapMode === 'china' ? 'text-[#BA3F38] font-bold border-b border-[#BA3F38]' : 'text-gray-400 hover:text-gray-600'}`}>中国</button>
                     <button type="button" onClick={() => setMapMode('world')} className={`transition-colors pb-0.5 ${mapMode === 'world' ? 'text-[#BA3F38] font-bold border-b border-[#BA3F38]' : 'text-gray-400 hover:text-gray-600'}`}>寰宇</button>
