@@ -192,7 +192,7 @@ export default function App() {
             
             <form onSubmit={handleAddQuote} className="space-y-5">
               <div>
-                <textarea required value={form.text} onChange={(e) => setForm({...form, text: e.target.value})} placeholder="“今天他又说了什么惊世骇俗的话...”" className="w-full bg-transparent border-b-2 border-[#C8C5C0] focus:border-[#BA3F38] outline-none py-3 resize-none font-serif-sc text-lg transition-colors" rows={3} />
+                <textarea required value={form.text} onChange={(e) => setForm({...form, text: e.target.value})} placeholder="“妙语连珠中...”" className="w-full bg-transparent border-b-2 border-[#C8C5C0] focus:border-[#BA3F38] outline-none py-3 resize-none font-serif-sc text-lg transition-colors" rows={3} />
               </div>
 
               <div className="grid grid-cols-2 gap-4">
@@ -261,7 +261,7 @@ export default function App() {
             </div>
           ) : quotes.length === 0 ? (
             <div className="text-center py-20 text-gray-400 font-serif-sc tracking-widest border-2 border-dashed border-[#DEDBD5] rounded-xl">
-              暂无云端收藏，等待新时代的语录诞生...
+              暂无云端收藏，等待新的语录诞生...
             </div>
           ) : (
             quotes.map((quote) => (
